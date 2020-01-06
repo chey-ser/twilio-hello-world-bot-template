@@ -4,7 +4,7 @@ exports.handler = function(context, event, callback) {
     console.log("User Identifier: "+ event.UserIdentifier);
     console.log("Task: "+ event.CurrentTask);
     console.log(event);
-    let message = "Hello from the Function!";
+    let message = "Hello World";
     let responseObject = {
         "actions": [
             {
